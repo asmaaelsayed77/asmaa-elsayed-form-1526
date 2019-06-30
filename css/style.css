@@ -1,0 +1,136 @@
+/*
+Colors
+
+#DDD
+
+#F5F5F5
+
+#6495ED
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+
+
+body {
+	font-family: "Arial", "Helvetica", sans-serif;
+	line-height: 1.5;
+
+}
+
+input,
+textarea {
+	width: 100%;
+	font-family: "Arial", "Helvetica", sans-serif;
+}
+
+
+form {
+
+	align-content: center;
+	padding: 1rem;
+	background-color: white;
+	margin: 1rem;
+	height: 90vh;
+	max-width: 50rem;
+}
+
+.box {
+	margin: 0 0 1rem 0;
+	background-color:
+}
+
+fieldset {
+	border: 1px solid #ddd;
+	padding: 2rem;
+	background-color: #F5F5F5;
+}
+
+label {
+	display: block;
+}
+
+input[type="text"] {
+	font-family: "Arial", "Helvetica", sans-serif;
+	border: 1px solid #ddd;
+	padding: 0.5rem;
+	font-size: 1rem;
+	height: 7vh;
+}
+
+legend {
+	font-size: 2rem;
+	border-style: solid;
+	border-width: thin;
+	border-color: #ddd;
+	background-color: white;
+	padding: 1rem;
+
+}
+
+.message {
+	height: 12vh;
+	border-color: #ddd;
+}
+
+.s-btn {
+	background-color: #6495ED;
+	border-radius: 5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+	color: white;
+	font-family: "Arial", "Helvetica", sans-serif;
+	font-size: 1rem;
+
+}
+
+@media screen and (min-width: 40rem) {
+
+
+	form {
+		padding: 2rem 4rem;
+		margin: auto;
+		margin-top: 1em;
+		margin-bottom: 1em;
+
+	}
+
+	.s-btn {
+		/*padding: 0 2rem;
+		max-width: 50%;*/
+		max-width: 25%;
+
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+
+	}
+
+	.box:nth-child(2),
+	.box:nth-child(3) {
+		width: 50%;
+		float: left;
+		padding: 5px;
+	}
+
+	.box:nth-child(4) {
+		clear: both;
+	}
+
+	.fieldset {
+		height: 90vh;
+	}
+}
+
+@media screen and (min-width: 50rem) {
+	form {
+		padding: 1rem 1rem;
+		margin: auto;
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+
+}
